@@ -1,0 +1,125 @@
+body{
+    background-color: gray;
+    text-align: center;
+}
+
+header{
+      border: 1px solid black;
+      background-color: white;
+      margin: 5px;
+  }
+#headA{
+    border: 1px solid black;
+    background-color: white;
+    margin: 5px;
+}
+#headB{
+    border: 1px solid black;
+    background-color: white;
+    margin: 5px;
+}
+footer{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+nav{
+     border: 1px solid black;
+     margin: 5px;
+     background-color: white;
+ }
+#navBo{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+#pA{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+#pB{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}
+#headerBody{
+     background-color: red;
+     border : 1px solid black;
+    text-align: center;
+ }
+    #navHead{
+    border: 1px solid black;
+    margin: 2px;
+}
+#sectionA{
+    background-color: red;
+    border : 1px solid black;
+    text-align: center;
+    display: inline-block;
+    width: 29%;
+    height: 500px;
+    margin: 5px;
+    float: left;
+
+}
+#sectionB{
+    background-color: red;
+    border : 1px solid black;
+    text-align: center;
+    width: 68%;
+    height: 500px;
+    margin: 5px;
+    float: left;
+}
+#footBody{
+    background-color: green;
+    border : 1px solid black;
+    text-align: center;
+    clear: both;
+}
+#articleA{
+    background-color: yellow;
+    margin:5px;
+    height: 200px;
+    border : 1px solid black;
+}
+#articleB{
+    background-color: yellow;
+    margin:5px;
+    border : 1px solid black;
+    height: 200px;
+}
+
+#pC{
+     border: 1px solid black;
+     margin: 5px;
+     background-color: white;
+     text-align: center;
+     width: 65%;
+     height: 55%;
+     float: left;
+}
+#asideB{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 55%;
+    float: right;
+}
+#footB {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+}
+#navA{
+    height: 415px;
+}
+#footA{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: white;
+}

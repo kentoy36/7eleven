@@ -1,0 +1,315 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+/*
+
+$one-color: gray;
+$two-color: red ;
+$three-color: yellow;
+$four-color: white;
+$five-color: green;
+
+html{
+  body{
+    background-color: $one-color;
+    text-align: center;
+    #headerBody{
+      background-color: $two-color;
+      border : 1px solid black;
+      text-align: center;
+      margin: 5px;
+      #navBo{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+        text-align: center;
+
+      }
+    }
+    #sectionA{
+      background-color: $two-color;
+      border : 1px solid black;
+      text-align: center;
+      display: inline-block;
+      width: 29%;
+      height: 500px;
+      margin: 5px;
+      float: left;
+      #headA{
+        border: 1px solid black;
+        background-color: $four-color;
+        margin: 5px;
+      }
+      #navA{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+        height: 415px;
+      }
+      #footA{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+      }
+    }
+    section#sectionB{
+
+
+    }
+    footer#footBody{
+
+    }
+  }
+
+}
+
+*/
+
+body{
+  header#logo{
+    text-align: center;
+    background: url("../header_bg.fw.png")repeat-x;
+    margin-top: 45px;
+  }
+  section#menuBox{
+    border: 2px solid #1c8b50;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2.5%;
+    display: inline-block;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: inline-block;
+      color: #1e9918;
+      text-align: center;
+      padding: 16px 70px;
+      text-decoration: none;
+      font-size: 2em;
+      position: relative;
+    }
+    li a:hover {
+    }
+    li a span {
+      width: 25px;
+      margin: 0 auto;
+    }
+    li a:hover:after {
+      border-left: solid transparent 15px;
+      border-right: solid transparent 15px;
+      bottom: 0;
+      border-bottom: solid #1c8b50 15px;
+      content: " ";
+      left: 42%;
+      position: absolute;
+    }
+
+  }
+  section#title1{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2.5%;
+    font-size: 3rem;
+    text-align: center;
+  }
+  section#title2{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 1.5%;
+    font-size: 2em;
+    text-align: center;
+  }
+  section#regForm{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top: 2.5%;
+    font-size: 2.7em;
+    color: red;
+    padding-left: 15%;
+  }
+  section#form{
+    section#box{
+      border-radius: 10px;
+      box-shadow: 2.5px 2.5px 20px 5px gray;
+      margin-left: 28%;
+      margin-right: 28%;
+      height: 520px;
+      margin-top: 1%;
+      div#typeName{
+        padding-top: 10%;
+        margin-left: 10%;
+        margin-right: 8%;
+        label#nameText{
+          Font-family: Arial;
+          background-color: white;
+          color: black;
+          font-size: 1.5em;
+        }
+        input#label-name{
+          font-size: 3em;
+          background-color: #e1e1e1;
+          border: #e1e1e1;
+          margin-left: 5%;
+          width: 79%;
+        }
+      }
+      div#typeEmail {
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 8%;
+        label#nameEmail {
+          Font-family: Arial;
+          background-color: white;
+          color: black;
+          font-size: 1.5em;
+        }
+        input#label-email {
+          font-size: 3em;
+          background-color: #e1e1e1;
+          border: #e1e1e1;
+          margin-left: 6%;
+          width: 79%;
+        }
+      }
+      div#date{
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 8%;
+        div#sel{
+          Font-family: Arial;
+          background-color: white;
+          color: black;
+          font-size: 1.5em;
+          select#month{
+            font-size: 1.2rem;
+            background-color: #e1e1e1;
+            border: #e1e1e1;
+            border-radius: 5px;
+            margin-left: 5%;
+            padding-bottom: 6px;
+            padding-top: 6px;
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+          select#day{
+            font-size: 1.2rem;
+            background-color: #e1e1e1;
+            border: #e1e1e1;
+            border-radius: 5px;
+            margin-left: 1%;
+            padding-bottom: 6px;
+            padding-top: 6px;
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+          select#year{
+            font-size: 1.2rem;
+            background-color: #e1e1e1;
+            border: #e1e1e1;
+            border-radius: 5px;
+            margin-left: 1%;
+            padding-bottom: 6px;
+            padding-top: 6px;
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+        }
+      }
+      div#check{
+        font-size: 1em;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 8%;
+        div{
+          display: inline-block;
+          vertical-align: top;
+
+        }
+        div:first-child{
+          padding-left: 15%;
+          transform: scale(2);
+          margin-top: 14px;
+        }
+        div:nth-child(2){
+          width: 64%;
+          text-align: justify;
+          padding-left: 13%;
+          color: black;
+          margin-top: 10px;
+          font-family: Arial;
+        }
+      }
+      button{
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        margin-top: 8%;
+        margin-left: 47%;
+        padding-left: 14%;
+        padding-right: 14%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        div{
+          font-size: 2em;
+          color: white;
+        }
+      }
+
+    }
+    div#card{
+      margin-top: -15%;
+      margin-left: 20%;
+    }
+
+  }
+  footer{
+    background: #1e9918;
+    section#foot{
+      margin-left: 7%;
+      margin-right: 7%;
+      margin-top: 2.5%;
+      margin-bottom: 2.5%;
+      display: inline-block;
+      ul#fA{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      li.fB{
+        float: left;
+      }
+
+      li a.fC{
+        display: inline-block;
+        color: white;
+        font-family: Arial;
+        text-align: left;
+        padding: 16px 70px;
+        text-decoration: none;
+        font-size: 1.7em;
+      }
+
+    }
+  }
+
+}
+@import "resposive";
+
+
+
+
+

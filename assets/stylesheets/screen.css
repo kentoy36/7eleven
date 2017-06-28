@@ -1,0 +1,418 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../tools/ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+
+$one-color: gray;
+$two-color: red ;
+$three-color: yellow;
+$four-color: white;
+$five-color: green;
+
+html{
+  body{
+    background-color: $one-color;
+    text-align: center;
+    #headerBody{
+      background-color: $two-color;
+      border : 1px solid black;
+      text-align: center;
+      margin: 5px;
+      #navBo{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+        text-align: center;
+
+      }
+    }
+    #sectionA{
+      background-color: $two-color;
+      border : 1px solid black;
+      text-align: center;
+      display: inline-block;
+      width: 29%;
+      height: 500px;
+      margin: 5px;
+      float: left;
+      #headA{
+        border: 1px solid black;
+        background-color: $four-color;
+        margin: 5px;
+      }
+      #navA{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+        height: 415px;
+      }
+      #footA{
+        border: 1px solid black;
+        margin: 5px;
+        background-color: $four-color;
+      }
+    }
+    section#sectionB{
+
+
+    }
+    footer#footBody{
+
+    }
+  }
+
+}
+
+*/
+/* line 72, ../sass/screen.scss */
+body header#logo {
+  text-align: center;
+  background: url("../header_bg.fw.png") repeat-x;
+  margin-top: 45px;
+}
+/* line 77, ../sass/screen.scss */
+body section#menuBox {
+  border: 2px solid #1c8b50;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2.5%;
+  display: inline-block;
+}
+/* line 83, ../sass/screen.scss */
+body section#menuBox ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 90, ../sass/screen.scss */
+body section#menuBox li {
+  float: left;
+}
+/* line 94, ../sass/screen.scss */
+body section#menuBox li a {
+  display: inline-block;
+  color: #1e9918;
+  text-align: center;
+  padding: 16px 70px;
+  text-decoration: none;
+  font-size: 2em;
+  position: relative;
+}
+/* line 105, ../sass/screen.scss */
+body section#menuBox li a span {
+  width: 25px;
+  margin: 0 auto;
+}
+/* line 109, ../sass/screen.scss */
+body section#menuBox li a:hover:after {
+  border-left: solid transparent 15px;
+  border-right: solid transparent 15px;
+  bottom: 0;
+  border-bottom: solid #1c8b50 15px;
+  content: " ";
+  left: 42%;
+  position: absolute;
+}
+/* line 120, ../sass/screen.scss */
+body section#title1 {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 2.5%;
+  font-size: 3rem;
+  text-align: center;
+}
+/* line 127, ../sass/screen.scss */
+body section#title2 {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 1.5%;
+  font-size: 2em;
+  text-align: center;
+}
+/* line 134, ../sass/screen.scss */
+body section#regForm {
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 2.5%;
+  font-size: 2.7em;
+  color: red;
+  padding-left: 15%;
+}
+/* line 143, ../sass/screen.scss */
+body section#form section#box {
+  border-radius: 10px;
+  box-shadow: 2.5px 2.5px 20px 5px gray;
+  margin-left: 28%;
+  margin-right: 28%;
+  height: 520px;
+  margin-top: 1%;
+}
+/* line 150, ../sass/screen.scss */
+body section#form section#box div#typeName {
+  padding-top: 10%;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+/* line 154, ../sass/screen.scss */
+body section#form section#box div#typeName label#nameText {
+  Font-family: Arial;
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+}
+/* line 160, ../sass/screen.scss */
+body section#form section#box div#typeName input#label-name {
+  font-size: 3em;
+  background-color: #e1e1e1;
+  border: #e1e1e1;
+  margin-left: 5%;
+  width: 79%;
+}
+/* line 168, ../sass/screen.scss */
+body section#form section#box div#typeEmail {
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+/* line 172, ../sass/screen.scss */
+body section#form section#box div#typeEmail label#nameEmail {
+  Font-family: Arial;
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+}
+/* line 178, ../sass/screen.scss */
+body section#form section#box div#typeEmail input#label-email {
+  font-size: 3em;
+  background-color: #e1e1e1;
+  border: #e1e1e1;
+  margin-left: 6%;
+  width: 79%;
+}
+/* line 186, ../sass/screen.scss */
+body section#form section#box div#date {
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+/* line 190, ../sass/screen.scss */
+body section#form section#box div#date div#sel {
+  Font-family: Arial;
+  background-color: white;
+  color: black;
+  font-size: 1.5em;
+}
+/* line 195, ../sass/screen.scss */
+body section#form section#box div#date div#sel select#month {
+  font-size: 1.2rem;
+  background-color: #e1e1e1;
+  border: #e1e1e1;
+  border-radius: 5px;
+  margin-left: 5%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* line 206, ../sass/screen.scss */
+body section#form section#box div#date div#sel select#day {
+  font-size: 1.2rem;
+  background-color: #e1e1e1;
+  border: #e1e1e1;
+  border-radius: 5px;
+  margin-left: 1%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* line 217, ../sass/screen.scss */
+body section#form section#box div#date div#sel select#year {
+  font-size: 1.2rem;
+  background-color: #e1e1e1;
+  border: #e1e1e1;
+  border-radius: 5px;
+  margin-left: 1%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+/* line 230, ../sass/screen.scss */
+body section#form section#box div#check {
+  font-size: 1em;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 8%;
+}
+/* line 235, ../sass/screen.scss */
+body section#form section#box div#check div {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 240, ../sass/screen.scss */
+body section#form section#box div#check div:first-child {
+  padding-left: 15%;
+  transform: scale(2);
+  margin-top: 14px;
+}
+/* line 245, ../sass/screen.scss */
+body section#form section#box div#check div:nth-child(2) {
+  width: 64%;
+  text-align: justify;
+  padding-left: 13%;
+  color: black;
+  margin-top: 10px;
+  font-family: Arial;
+}
+/* line 254, ../sass/screen.scss */
+body section#form section#box button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8%;
+  margin-left: 47%;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+/* line 264, ../sass/screen.scss */
+body section#form section#box button div {
+  font-size: 2em;
+  color: white;
+}
+/* line 271, ../sass/screen.scss */
+body section#form div#card {
+  margin-top: -15%;
+  margin-left: 20%;
+}
+/* line 277, ../sass/screen.scss */
+body footer {
+  background: #1e9918;
+}
+/* line 279, ../sass/screen.scss */
+body footer section#foot {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  display: inline-block;
+}
+/* line 285, ../sass/screen.scss */
+body footer section#foot ul#fA {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+/* line 292, ../sass/screen.scss */
+body footer section#foot li.fB {
+  float: left;
+}
+/* line 296, ../sass/screen.scss */
+body footer section#foot li a.fC {
+  display: inline-block;
+  color: white;
+  font-family: Arial;
+  text-align: left;
+  padding: 16px 70px;
+  text-decoration: none;
+  font-size: 1.7em;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 6, ../sass/_resposive.scss */
+  body section#title1 {
+    width: 80%;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 2.5em;
+  }
+  /* line 12, ../sass/_resposive.scss */
+  body section#title2 {
+    width: 80%;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 1.5em;
+  }
+  /* line 18, ../sass/_resposive.scss */
+  body section#regForm {
+    width: 51%;
+    padding-top: 30px;
+    font-size: 2em;
+    padding-left: 0;
+  }
+  /* line 25, ../sass/_resposive.scss */
+  body section#form section#box {
+    border: none;
+    box-shadow: none !important;
+  }
+}
